@@ -38,9 +38,10 @@ def list_all_students():
     print("-" * 35)
 
 add_student("S001", "Masud", "Web Development", 3.8)
-add_student("S002", "Maryam", "Biology", 3.2)
+add_student("S002", "Asmau", "MicroBiology", 3.2)
 add_student("S003", "Sulaiman", "Arts", 3.9)
 
 view_student("S001")
 update_gpa("S002", 3.5)
+
 list_all_students()
